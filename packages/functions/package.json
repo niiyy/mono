@@ -1,0 +1,17 @@
+{
+  "name": "@n/functions",
+  "version": "0.0.0",
+  "main": "./dist/index.js",
+  "source": "./src/index.ts",
+  "scripts": {
+    "dev": "tsc -w",
+    "build": "tsc",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "@n/config": "workspace:*"
+  },
+  "devDependencies": {
+    "tsup": "^6.6.3"
+  }
+}
