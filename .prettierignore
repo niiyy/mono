@@ -1,1 +1,5 @@
-.gitignore
+**/node_modules
+**/.env
+**/*.log
+**/.turbo
+**/dist
